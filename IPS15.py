@@ -15,6 +15,7 @@ for i in range(n):
             c=c+1
         if i=="a" or i=="e" or i=="i" or i=="o" or i=="u" or i=="A" or i=="E" or i=="I" or i=="O" or i=="U":
             d=d+1
+            
 print(tuple(l))
 print("LETTERS",b)
 print("DIGITS",c)

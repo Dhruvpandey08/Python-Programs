@@ -156,4 +156,3 @@ Widgets()
 # Defining infinite loop to run
 # application
 root.mainloop()
-

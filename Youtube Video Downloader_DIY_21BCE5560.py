@@ -120,12 +120,12 @@ def Download():
 	messagebox.showinfo("SUCCESSFULLY",
 						"DOWNLOADED AND SAVED IN\n"
 						+ download_Folder)
-root = tk.Tk()                       #Creating object of tk class
+root = tk.Tk()                                   # Creating object of tk class
 root.geometry("520x280")                      
 root.resizable(False, False)
-root.title("YouTube Video Downloader") #Setting the title,background color and size of the tkinter window 
+root.title("YouTube Video Downloader")           # Setting the title, background color and size of the tkinter window and disabling the resizing property
 root.config(background="PowderBlue")
-video_Link = StringVar()             #Creating the tkinter Variables
+video_Link = StringVar()             # Creating the tkinter Variables
 download_Path = StringVar()
-Widgets()                            #Calling the Widgets() function
+Widgets()                            # Calling the Widgets() function
 root.mainloop()
